@@ -1,0 +1,18 @@
+var pois = [
+  {latlng:[48.63691, 21.47065], color:'#0a0', name:"Szalánci vár (Slanský hrad)"},
+  {latlng:[48.82000, 21.94990], color:'#a00', name:"Tarna vára (Viniansky hrad)"},
+  {latlng:[48.78740, 22.01570], color:'#a00', name:"Zemplínska šírava"},
+  {latlng:[48.89120, 22.11335], color:'#a00', name:"Vihorlát"},
+  {latlng:[48.92916, 22.18862], color:'#a00', name:"Sninsky-kő (Sninský kameň)"},
+  {latlng:[48.82312, 22.35767], color:'#a00', name:"Inovce"},
+  {latlng:[49.05475, 21.32044], color:'#00a', name:"Kapi vára (Kapušany)"},
+  {latlng:[49.29269, 21.27559], color:'#00a', name:"Bártfa (Bardejov)"},
+  {latlng:[49.32730, 21.27388], color:'#00a', name:"Bártfafürdő (Bardejovské Kúpele)"},
+  {latlng:[49.35328, 21.29845], color:'#00a', name:"Zboró vára (Zborov)"},
+  {latlng:[49.30824, 21.57352], color:'#00a', name:"Svidník"},
+  {latlng:[49.40179, 21.70418], color:'#00a', name:"Vyšný Komárnik"},
+  {latlng:[48.9977, 21.2401], color:'#00a', name:"Eperjes (Prešov)"},
+  {latlng:[48.91445, 21.73830], color:'#0aa', name:"Csicsva vára (Sedliská, Podčičva)"},
+  {latlng:[48.90242, 21.83227], color:'#0aa', name:"Barkó vára (Brekov)"},
+  {latlng:[48.89139, 21.91039], color:'#0aa', name:"Jeszenő vára (Jasenov)"},
+];
