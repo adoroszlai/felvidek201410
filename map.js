@@ -1,6 +1,6 @@
 function init_map() {
 	var map = L.map('map');
-	new L.OSM.MapQuestOpen().addTo(map);
+	new L.OSM.CycleMap().addTo(map);
 	L.control.scale().addTo(map);
 
 	var markers = L.featureGroup().addTo(map);
@@ -10,5 +10,12 @@ function init_map() {
 		marker.addTo(markers);
 	});
 
-	map.fitBounds(markers.getBounds());
+	var routes = L.gpxGroup(tracks, {
+		highlight: { color: '#d00' },
+		zoomOnSelected: true,
+	});
+	routes.on('loaded', function() {
+		map.fitBounds(routes.getBounds());
+	});
+	routes.addTo(map);
 }
